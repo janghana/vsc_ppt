@@ -32,14 +32,9 @@ marp: true
 
 ---
 
-# figure1, 2
-![bg right](./figure1.png)  
-![bg](./figure2.png)
-
-- one
-- two
-- three
-- four
+### figure 1
+![bg right:90%](./figure1.png)
+- figure 1
 ---
 
-![bg](./figure1.png)
+![bg](./figure2.png)
