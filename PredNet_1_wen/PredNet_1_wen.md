@@ -1,5 +1,5 @@
 ---
-theme: uncover
+theme : uncover
 title : Deep Predictive Coding Network for Object Recognition
 paginate: true
 backgroundColor : #FFFFF0
@@ -24,9 +24,22 @@ marp: true
 
 ###  Predictive Coding Networks (PCN)
 
-##### Based on the predictive coding theory in neuroscience, it was designed a bi-directional and recurrent neural net
+##### Based on the predictive coding theory in neuroscience,it was designed a bi-directional and recurrent neural net
+
 ---
-<!-- # ----- ----- ----- Explaination for PCN ----- ----- ----- # -->
+<!-- # ----- ----- ----- keywards for PCN ----- ----- ----- # -->
+#### Predictive Coding Networks (PCN)
+##### keywards
+- feedforward
+- feedback
+- recurrent connections
+- bottom-up
+- top-down
+
+---
+<!-- # ----- ----- ----- intro PCN ----- ----- ----- # -->
+<!-- footer: Introduction -->
+
 
 
 
