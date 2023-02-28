@@ -31,10 +31,20 @@ marp: true
 
 
 ---
-
-### figure 1
-![bg right:90%](./figure1.png)
-- figure 1
+<!-- # ----- ----- ----- figure 1 - a ----- ----- ----- # -->
+#### figure 1 - a
+![bg contain right:30%](./figure1-a.png)
+- figure 1 - a
+---
+<!-- # ----- ----- ----- figure 1 - b ----- ----- ----- # -->
+#### figure 1 - b
+![bg contain right:70%](./figure1-b.png)
+- figure 1 - b
 ---
 
-![bg](./figure2.png)
+<!-- # ----- ----- ----- figure 1 - b ----- ----- ----- # -->
+#### figure 1 - c
+![bg contain right:70%](./figure1-c.png)
+- figure 1 - c
+---
+
