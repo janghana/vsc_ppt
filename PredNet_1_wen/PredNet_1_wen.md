@@ -119,7 +119,61 @@ As a result, the brain dynamically updates its representations to progressively 
 -->
 <!-- # ----- ----- ----- ----- ----- ----- ----- ----- # -->
 ---
+<!-- # ----- ----- ----- intro PCN 2 ----- ----- ----- # -->
 
+##### PCN is a bi-directional and recurrent neural net.
+###### Given image input to PCN, it runs recurisve cycles of bottom-up and top-down computation to update its internal representations towards minimizations of the residual error between bottom-up input and top-down prediction at every layer in the network.
+
+###### Using predictive coding as its computational mechanism, PCN differs from feedforward-only CNNs that currently dominate computer vision.
+
+<!-- # ----- ----- ----- Script ----- ----- ----- # -->
+<!--
+PCN is a bi-directional and recurrent neural net.
+Given image input to PCN, it runs recurisve cycles of bottom-up and top-down computation to update its internal representations towards minimizations of the residual error between bottom-up input and top-down prediction at every layer in the network.
+Using predictive coding as its computational mechanism, PCN differs from feedforward-only CNNs that currently dominate computer vision.
+-->
+<!-- # ----- ----- ----- ----- ----- ----- ----- ----- # -->
+---
+###### It is a model with dynamics that uses recursive and bi-directional computation to extract better representations of the input such that the input is predictable by the internal representation.
+
+###### When it is unfolded in time, PCN runs a longer cascade of nonlinear transformations by running more cycles of bottom-up and top-down computation through the same architecture without adding more layers, units, or connections.
+<!-- # ----- ----- ----- Script ----- ----- ----- # -->
+<!--
+It is a model with dynamics that uses recursive and bi-directional computation to extract better representations of the input such that the input is predictable by the internal representation.
+
+When it is unfolded in time, PCN runs a longer cascade of nonlinear transformations by running more cycles of bottom-up and top-down computation through the same architecture without adding more layers, units, or connections.
+-->
+<!-- # ----- ----- ----- ----- ----- ----- ----- ----- # -->
+---
+![bg contain right:40%](./cifar.jpg)
+###### PCN is designed with convolutional layers stacked in both feedforward and feedback directions.
+
+###### They trained and tested PCN for image classification with benchmark datasets.
+<!-- # ----- ----- ----- Script ----- ----- ----- # -->
+<!--
+PCN is designed with convolutional layers stacked in both feedforward and feedback directions.
+
+They trained and tested PCN for image classification with benchmark datasets.
+CIFAR-10, CIFAR-100, SVHN, MNIST
+-->
+<!-- # ----- ----- ----- ----- ----- ----- ----- ----- # -->
+---
+<!-- # ----- ----- ----- Method : PCN ----- ----- ----- # -->
+<!-- footer: Method -->
+##### Predictive coding
+
+###### Central to the theory of predictive coding is that the brain continuously generates top-down predictions of bottom-up inputs.
+
+###### The representation at a higher level predicts the representation at its lower level.
+
+###### 
+
+<!-- # ----- ----- ----- Script ----- ----- ----- # -->
+<!--
+
+-->
+<!-- # ----- ----- ----- ----- ----- ----- ----- ----- # -->
+---
 
 <!-- # ----- ----- ----- Script ----- ----- ----- # -->
 <!--
