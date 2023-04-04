@@ -65,8 +65,9 @@ Despite various ways of architectural reconfiguration, these models all scale up
 <!-- # ----- ----- ----- ----- ----- ----- ----- ----- # -->
 --- 
 ![bg auto](./brain.png)
-###### **_Unlike CNNs_**, the brain achieves robust visual perception by using feedforward, feedback and recurrent connections(Felleman & Van, 1991)
+###### **_Unlike CNNs_**, the brain achieves robust visual perception by using feedforward, feedback and recurrent connections.
 <br><br><br><br><br>
+
 ###### Such bi-directional processes enable humans to perform a wide range of visual tasks, including object recognition.
 
 <!-- # ----- ----- ----- Script ----- ----- ----- # -->
@@ -333,7 +334,12 @@ Two-layer  substructure  of  PCN. Feedback (blue), feedforward (green), and recu
 ---
 ###### The  feedforward  and  feedback  update rates (𝑎 𝑙 and 𝑏 𝑙) are set to `be specific to each filter in each layer`, are constrained to be non-negative by using ReLU, and are trained with initialvalues `𝑎 𝑙=1.0 and 𝑏 𝑙=0.5, respectively.`
 ###### The convolutional weights and linear weights were initialized to be uniformly random (the default setting in PyTorch).
-###### `The models were trained using mini-batches of a size  128`  and  without  using  drop out regularization (Srivastava et al., 2014).
+###### `The models were trained using mini-batches of a size  128`  and  without  using  drop out regularization.
+
+---
+
+
+
 
 ---
 
